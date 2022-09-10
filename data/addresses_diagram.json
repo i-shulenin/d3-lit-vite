@@ -1,0 +1,118 @@
+{
+  "nodes": [
+    {
+      "node": 0,
+      "name": "0:9adfb81ccdc5cba74d1b90fdde035b71693c17e93cb31ada304ae1e2170a1b9a"
+    },
+    {
+      "node": 1,
+      "name": "mint_in"
+    },
+    {
+      "node": 2,
+      "name": "0:0672930d0f4d76924c6c3d5be976dbbb74685149c6717fb37c7a6202381cbd36_in"
+    },
+    {
+      "node": 3,
+      "name": "0:56e89f4c4616a565a07d57b97203d780125497b1e4e0298de94b0d43c5614c6c_in"
+    },
+    {
+      "node": 4,
+      "name": "0:1037a3176e0b15a50fef935a0d4623a567e90ff61a7eb1bf99770f2fe3968949_in"
+    },
+    {
+      "node": 5,
+      "name": "0:5855295db68abaa13d9158f5dc8d128826fa83a72e32dff9613061ec907e992e_in"
+    },
+    {
+      "node": 6,
+      "name": "other_in"
+    },
+    {
+      "node": 7,
+      "name": "burn_out"
+    },
+    {
+      "node": 8,
+      "name": "0:50c31bc6745c053c06abea63c379661adfa0cbb9aa4942a87fba0fe9a5229c04_out"
+    },
+    {
+      "node": 9,
+      "name": "0:1037a3176e0b15a50fef935a0d4623a567e90ff61a7eb1bf99770f2fe3968949_out"
+    },
+    {
+      "node": 10,
+      "name": "0:4a1aab6f66002a425b06d43ed6d397010a02908c245d3cabda13dcabd914c930_out"
+    },
+    {
+      "node": 11,
+      "name": "0:d0936a9fc29b5175487208b1d07ab8042ce7ddbc2de7e271c4087ca833b865cc_out"
+    },
+    {
+      "node": 12,
+      "name": "other_out"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 99.99985586415596
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "value": 99.99980199423074
+    },
+    {
+      "source": 8,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "value": 1
+    }
+  ]
+}

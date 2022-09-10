@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "node": 0,
+      "name": "0:9adfb81ccdc5cba74d1b90fdde035b71693c17e93cb31ada304ae1e2170a1b9a"
+    },
+    {
+      "node": 1,
+      "name": "other_in"
+    },
+    {
+      "node": 2,
+      "name": "tip3stake_in"
+    },
+    {
+      "node": 3,
+      "name": "user_in"
+    },
+    {
+      "node": 4,
+      "name": "dex_in"
+    },
+    {
+      "node": 5,
+      "name": "magistrludi_in"
+    },
+    {
+      "node": 6,
+      "name": "depool_in"
+    },
+    {
+      "node": 7,
+      "name": "farming_in"
+    },
+    {
+      "node": 8,
+      "name": "scam_in"
+    },
+    {
+      "node": 9,
+      "name": "exchange_in"
+    },
+    {
+      "node": 10,
+      "name": "launchpad_in"
+    },
+    {
+      "node": 11,
+      "name": "service_in"
+    },
+    {
+      "node": 12,
+      "name": "other_out"
+    },
+    {
+      "node": 13,
+      "name": "dex_out"
+    },
+    {
+      "node": 14,
+      "name": "user_out"
+    },
+    {
+      "node": 15,
+      "name": "depool_out"
+    },
+    {
+      "node": 16,
+      "name": "farming_out"
+    },
+    {
+      "node": 17,
+      "name": "exchange_out"
+    },
+    {
+      "node": 18,
+      "name": "dao_out"
+    },
+    {
+      "node": 19,
+      "name": "launchpad_out"
+    },
+    {
+      "node": 20,
+      "name": "service_out"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 99.99988982452426
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 0.000007646612632381066
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 0.0000071498702406361586
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 0.000052598388247296034
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 0.000008461791172462496
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "value": 5.130722241826054e-10
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 0.000034182927762260685
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": 3.013086143823085e-14
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": 3.7989394103694796e-8
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "value": 9.734972817564528e-8
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "value": 3.35052220986299e-11
+    },
+    {
+      "source": 12,
+      "target": 0,
+      "value": 99.99986526990004
+    },
+    {
+      "source": 13,
+      "target": 0,
+      "value": 0.00007965049326001096
+    },
+    {
+      "source": 14,
+      "target": 0,
+      "value": 0.0000020008527029039933
+    },
+    {
+      "source": 15,
+      "target": 0,
+      "value": 7.012100735848093e-9
+    },
+    {
+      "source": 16,
+      "target": 0,
+      "value": 0.00005110362638799641
+    },
+    {
+      "source": 17,
+      "target": 0,
+      "value": 0.0000018467702380305377
+    },
+    {
+      "source": 18,
+      "target": 0,
+      "value": 2.8325661388540585e-10
+    },
+    {
+      "source": 19,
+      "target": 0,
+      "value": 1.2099498390925297e-7
+    },
+    {
+      "source": 20,
+      "target": 0,
+      "value": 6.708214407636798e-11
+    }
+  ]
+}
