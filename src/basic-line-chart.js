@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const height = 245 - margin.top - margin.bottom;
 
   const svg = d3
-    .select('#basicLineChart')
+    .select('#basic-line-chart')
     .append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + margin.top + margin.bottom)
