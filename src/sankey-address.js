@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const address =
     '0:9adfb81ccdc5cba74d1b90fdde035b71693c17e93cb31ada304ae1e2170a1b9a';
+  color = '#dddddd';
 
   function sankeyAddressParse(source) {
     const links = [
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           isNaN(parseFloat(item.size)) || parseFloat(item.size) < 1
             ? 1
             : parseFloat(item.size),
+        color,
       })),
       ...source.diagram_out.map((item) => ({
         source: `${item.name}_out`,
@@ -19,6 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           isNaN(parseFloat(item.size)) || parseFloat(item.size) < 1
             ? 1
             : parseFloat(item.size),
+        color,
       })),
     ];
 
@@ -36,8 +39,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     return { nodes: Array.from(nodeByName.values()), links };
   }
 
-  const sankeyAddressSource = await transfersDataRequest();
+  const sankeyAddressResponse = await transfersDataRequest();
   const sankeyAddressData = sankeyAddressParse(
-    sankeyAddressSource.addresses_diagram
+    sankeyAddressResponse.addresses_diagram
   );
+
+  console.log(sankeyAddressData);
+
+  const margin = { top: 10, right: 100, bottom: 10, left: 100 };
+  const width = 800 - margin.left - margin.right;
+  const height = 360 - margin.top - margin.bottom;
 });
