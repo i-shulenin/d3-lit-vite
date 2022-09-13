@@ -9,8 +9,24 @@
     <link rel="stylesheet" href="./src/index.css" />
     <script type="module" src="/src/my-element.js"></script>
 -->
-    <script src="https://d3js.org/d3.v6.js"></script>
-    <script src="https://unpkg.com/d3-sankey@0"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/sankey.js"></script>
+    <style>
+      .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: 0.2;
+      }
+      .link:hover {
+        stroke-opacity: 0.5;
+      }
+      text.value {
+        color: #50505a;
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+      }
+    </style>
   </head>
   <body>
     <!--
