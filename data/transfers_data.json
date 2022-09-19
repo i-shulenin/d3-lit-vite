@@ -1,151 +1,197 @@
 {
   "total_in": {
-    "amount": 978313062238.5704,
-    "count": 3867,
-    "addresses": 372
+    "amount": 108612.23742204302,
+    "count": 497,
+    "addresses": 100
   },
   "total_out": {
-    "amount": 978312975994.3313,
-    "count": 1521,
-    "addresses": 252
+    "amount": 106851.68576693707,
+    "count": 258,
+    "addresses": 78
   },
   "types_diagram": {
     "diagram_in": [
       {
-        "name": "other",
-        "size": "99.99988982452426"
-      },
-      {
-        "name": "tip3stake",
-        "size": "7.646612632381066e-06"
+        "name": "distributor",
+        "size": "97.45685375363423",
+        "amount": 105850.06938295046,
+        "type": "distributor"
       },
       {
         "name": "user",
-        "size": "7.1498702406361586e-06"
-      },
-      {
-        "name": "dex",
-        "size": "5.2598388247296034e-05"
-      },
-      {
-        "name": "magistrludi",
-        "size": "8.461791172462496e-06"
-      },
-      {
-        "name": "depool",
-        "size": "5.130722241826054e-10"
-      },
-      {
-        "name": "farming",
-        "size": "3.4182927762260685e-05"
-      },
-      {
-        "name": "scam",
-        "size": "3.013086143823085e-14"
+        "size": "2.205514573928115",
+        "amount": 2395.4587254125654,
+        "type": "user"
       },
       {
         "name": "exchange",
-        "size": "3.7989394103694796e-08"
+        "size": "0.17045748156800405",
+        "amount": 185.13768458427577,
+        "type": "exchange"
       },
       {
-        "name": "launchpad",
-        "size": "9.734972817564528e-08"
+        "name": "other",
+        "size": "0.14378035328811123",
+        "amount": 156.16305867953562,
+        "type": "other"
       },
       {
-        "name": "service",
-        "size": "3.35052220986299e-11"
+        "name": "dex",
+        "size": "0.016101750128178115",
+        "amount": 17.48847107832093,
+        "type": "dex"
+      },
+      {
+        "name": "depool",
+        "size": "0.006371923434229153",
+        "amount": 6.920688608735766,
+        "type": "depool"
+      },
+      {
+        "name": "fee",
+        "size": "0.0009201640191556257",
+        "amount": 0.9994107291575215,
+        "type": "fee"
       }
     ],
     "diagram_out": [
       {
-        "name": "other",
-        "size": "99.99986526990004"
+        "name": "exchange",
+        "size": "44.87735360768527",
+        "amount": 47952.20885740106,
+        "type": "exchange"
       },
       {
-        "name": "dex",
-        "size": "7.965049326001096e-05"
+        "name": "transit",
+        "size": "35.63541819647865",
+        "amount": 38077.04507303528,
+        "type": "transit"
       },
       {
         "name": "user",
-        "size": "2.0008527029039933e-06"
+        "size": "16.752554148373047",
+        "amount": 17900.386516555547,
+        "type": "user"
+      },
+      {
+        "name": "other",
+        "size": "2.4015965823817074",
+        "amount": 2566.1464335960018,
+        "type": "other"
+      },
+      {
+        "name": "gambling",
+        "size": "0.2762771054363472",
+        "amount": 295.2067445468351,
+        "type": "gambling"
       },
       {
         "name": "depool",
-        "size": "7.012100735848093e-09"
+        "size": "0.02900341162105763",
+        "amount": 30.990634247023806,
+        "type": "depool"
       },
       {
-        "name": "farming",
-        "size": "5.110362638799641e-05"
-      },
-      {
-        "name": "exchange",
-        "size": "1.8467702380305377e-06"
-      },
-      {
-        "name": "dao",
-        "size": "2.8325661388540585e-10"
-      },
-      {
-        "name": "launchpad",
-        "size": "1.2099498390925297e-07"
+        "name": "dex",
+        "size": "0.016312938790933103",
+        "amount": 17.43065009624062,
+        "type": "dex"
       },
       {
         "name": "service",
-        "size": "6.708214407636798e-11"
+        "size": "0.011335642449654097",
+        "amount": 12.112325049967923,
+        "type": "service"
+      },
+      {
+        "name": "fee",
+        "size": "0.00011223408365994155",
+        "amount": 0.11992401039572201,
+        "type": "fee"
+      },
+      {
+        "name": "magistrludi",
+        "size": "3.613269964101672e-05",
+        "amount": 0.038608398679530385,
+        "type": "magistrludi"
       }
     ]
   },
   "addresses_diagram": {
     "diagram_in": [
       {
-        "name": "mint",
-        "size": "99.99985586415596"
+        "name": "0:b4d703b246a0649585d57893fb4da32537d50ffa744a52e995880f3d89ceb0fa",
+        "size": "25.18978941988098",
+        "amount": 27359.193890833805,
+        "type": "distributor"
       },
       {
-        "name": "0:0672930d0f4d76924c6c3d5be976dbbb74685149c6717fb37c7a6202381cbd36",
-        "size": "4.520052693614554e-05"
+        "name": "0:f5a7cb53c48ca78260d0b765353c6441f90e5fc84a060535e049a2a964b31876",
+        "size": "19.694230278852142",
+        "amount": 21390.344148910775,
+        "type": "distributor"
       },
       {
-        "name": "0:56e89f4c4616a565a07d57b97203d780125497b1e4e0298de94b0d43c5614c6c",
-        "size": "test"
+        "name": "0:7b679eaa3dca7c2583b66253e755c996bb049ad7ac7ae263b48d933f242ebfb5",
+        "size": "11.913128467632243",
+        "amount": 12939.115375657726,
+        "type": "distributor"
       },
       {
-        "name": "0:1037a3176e0b15a50fef935a0d4623a567e90ff61a7eb1bf99770f2fe3968949",
-        "size": "1.497493705824479e-05"
+        "name": "0:aba3a06ce11f2447b675db062197d72054e3e760dacb4740baaa9067b29166d7",
+        "size": "10.030752929419982",
+        "amount": 10894.625186920166,
+        "type": "distributor"
       },
       {
-        "name": "0:5855295db68abaa13d9158f5dc8d128826fa83a72e32dff9613061ec907e992e",
-        "size": "8.461791172462496e-06"
+        "name": "0:78cd22099bdb422893b21a5c143d6df7ac871fbb08f96bb9e98590ca1021f269",
+        "size": "8.643207915999326",
+        "amount": 9387.581502606005,
+        "type": "distributor"
       },
       {
-        "name": "other",
-        "size": "5.46108429209315e-05"
+        "name": "another",
+        "size": "24.528890988215323",
+        "amount": 26641.37731711456,
+        "type": "another"
       }
     ],
     "diagram_out": [
       {
-        "name": "burn",
-        "size": "99.99980199423074"
+        "name": "0:af22c44fc447f8497219969d6faed49894584f0de66a208956aec20c1ed47530",
+        "size": "41.0846409067556",
+        "amount": 43899.63140016098,
+        "type": "exchange"
       },
       {
-        "name": "0:50c31bc6745c053c06abea63c379661adfa0cbb9aa4942a87fba0fe9a5229c04",
-        "size": "2.5786051236941363e-05"
+        "name": "0:21672f3be271e2a462c21e8da0ec4d1400489d57e19ef7a8935dbc7c593bfd99",
+        "size": "35.63541819647865",
+        "amount": 38077.04507303528,
+        "type": "transit"
       },
       {
-        "name": "0:1037a3176e0b15a50fef935a0d4623a567e90ff61a7eb1bf99770f2fe3968949",
-        "size": "1.8333657508461314e-05"
+        "name": "0:75ba310d66d250b354e66c05efe69d5fad85896f26b32bb45a1896a1c7b22cb3",
+        "size": "14.2672120232675",
+        "amount": 15244.756558804453,
+        "type": "user"
       },
       {
-        "name": "0:4a1aab6f66002a425b06d43ed6d397010a02908c245d3cabda13dcabd914c930",
-        "size": "1.5740972559724465e-05"
+        "name": "0:224de201c2e53c291386820358458d422bd9dea083d8eb4354db47390dd0dd93",
+        "size": "3.7094773410366417",
+        "amount": 3963.639072040205,
+        "type": "exchange"
       },
       {
-        "name": "0:d0936a9fc29b5175487208b1d07ab8042ce7ddbc2de7e271c4087ca833b865cc",
-        "size": "1.5199971208918585e-05"
+        "name": "0:9c9a41058ab4a05e7bb5507acb48de22b0d2f7aa76a18dd3cfbd9c48b9a90a35",
+        "size": "2.3880746581841175",
+        "amount": 2551.6980296427496,
+        "type": "user"
       },
       {
-        "name": "other",
-        "size": "0.00012294511680422226"
+        "name": "another",
+        "size": "2.915176874277469",
+        "amount": 3114.9156332533694,
+        "type": "another"
       }
     ]
   }
