@@ -1,0 +1,65 @@
+{
+  "name": {
+    "name": "square_diagram",
+    "digits": null
+  },
+  "children": [
+    {
+      "name": {
+        "name": "Stacking",
+        "digits": null
+      },
+      "children": [
+        {
+          "name": {
+            "name": "EVER",
+            "digits": 352.236058645
+          },
+          "size": 24.505296779497172,
+          "root": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d"
+        }
+      ]
+    },
+    {
+      "name": {
+        "name": "Wallet",
+        "digits": null
+      },
+      "children": [
+        {
+          "name": {
+            "name": "WEVER",
+            "digits": 55.0
+          },
+          "size": 3.826386566035,
+          "root": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d"
+        },
+        {
+          "name": {
+            "name": "PURR",
+            "digits": 2644428.832284958
+          },
+          "size": 3.5336524047155953,
+          "root": "0:9d49206b0eaadc5125c6b5e30410505db7740f827857915922cdb7efe199b622"
+        },
+        {
+          "name": {
+            "name": "QUBE",
+            "digits": 0.080302218
+          },
+          "size": 0.3976059369054257,
+          "root": "0:9f20666ce123602fd7a995508aeaa0ece4f92133503c0dfbd609b3239f3901e2"
+        },
+        {
+          "name": {
+            "name": "EVER",
+            "digits": 4.7915
+          },
+          "size": 0.33334784056648553,
+          "root": "0:a49cd4e158a9a15555e624759e2e4e766d22600b7800d891e46f9291f044a93d"
+        }
+      ]
+    }
+  ],
+  "assets": 32.59628952771968
+}
